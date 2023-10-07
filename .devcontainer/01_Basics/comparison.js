@@ -1,4 +1,4 @@
-console.log("2">1); //conveert "2" into 2(int)
+console.log("2">1); //conveert "2" into (int)
 
 console.log(null>0);
 console.log(null==0);
