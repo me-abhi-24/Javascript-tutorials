@@ -1,5 +1,5 @@
 // Immediately Invoke Function XPathExpression(IIFE)
-
+// To avoid pollution from global scope IIFE is used
 (function chai() {
     //named IIFE the IIFE function which contain name
     console.log("Hi");

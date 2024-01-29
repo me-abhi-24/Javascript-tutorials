@@ -4,6 +4,6 @@ JavaScript Execution Context
   2]Function EC
  *3]Eval EC
 
-{}->Memory Creation Phase
+->Memory Creation Phase
   ->Execution Phase
   ->Memory Phase
