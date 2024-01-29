@@ -9,7 +9,7 @@ for (const key in arr) {
 }
 
 arr.forEach(element => {
-    console.log(element);
+    // console.log(element);
 });
 
 let name="Abhishek"
@@ -27,10 +27,6 @@ map.set('DS', "Data Science")
 for (const [key, value] of map) {
     // console.log(key, '->', value);
 }
-//------maps are not iterable------//
-// for (const key in map) {
-//     console.log(key);
-// }
 
 const obj={
     'game1':"NFS",
