@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .events img{
+     display: inline-block;
+     width: 40%;
+     height: 70vh;
+     background-size: cover;
+    }
+</style>
+<body style="background-color: #414141;">
+    <div class="events">
+        <ul id="image">
+            <li><img src="pexels-kammeran-gonzalezkeola-17450729.jpg" alt="one" id="one"></li>
+            <li><img src="pexels-mehmet-turgut-kirkgoz-18142234.jpg" alt="two" id="two"></li>
+            <li><img src="ruby-throated-hummingbird-8596660_1280.jpg" alt="three" id="three"></li>
+            <li><img src="zoo-8378189_1280.jpg" alt="four" id="four"></li>
+        </ul>
+    </div>
+</body>
+<script>
+    //**document.getElementById('image').addEventListener('click', function(e){
+    //   console.log("Inside li");
+    //}, false)
+
+    //document.getElementById('two').addEventListener('click', function(e){
+    //    console.log("This is owl");
+    //    e.stopPropagation()
+    //}, false)
+
+    document.querySelector("#image").addEventListener('click', function(e){
+        console.log(e.target.parentNode)
+        let removeit=e.target.parentNode
+        removeit.remove()
+        //removeit.parentNode.removeChild(removeit)
+    })
+
+</script>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color changing Buttons</title>
+</head>
+<style>
+    .container{
+        display: flexbox;
+    }
+    button{
+        margin-left: 8%;
+        height: 5rem;
+        width: 8%;
+        display: inline-block;
+        font-size: 15px;
+        cursor: pointer;
+        border-radius: 8px;
+        border: 2px solid black;
+    }
+    .yellow{
+        background-color: yellow;
+    }
+    .red{
+        background-color: red;
+    }
+    .blue{
+        background-color: blue;
+    }
+    .green{
+        background-color: green;
+    }
+    .orange{
+        background-color: orange;
+    }
+    .grey{
+        background-color: grey;
+    }
+</style>
+<body>
+    <h1>This is a simple project which show the change of backgroung after clicking the particular button</h1>
+    <div class="container">
+        <button class="yellow" id="yellow">Yellow</button>
+        <button class="red" id="red">Red</button>
+        <button class="blue" id="blue">Blue</button>
+        <button class="grey" id="grey">Grey</button>
+        <button class="orange" id="orange">Orange</button>
+    </div>
+</body>
+<script src="change.js"></script>
+</html>
